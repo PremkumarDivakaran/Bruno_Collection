@@ -1,0 +1,35 @@
+meta {
+  name: Groq Request
+  type: http
+  seq: 1
+}
+
+post {
+  url: https://api.groq.com/openai/v1/chat/completions
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: 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
+}
+
+body:json {
+  {
+    "model": "llama-3.3-70b-versatile",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a helpful AI assistant."
+      },
+      {
+        "role": "user",
+        "content": "Tell some story about Sun"
+      }
+    ],
+    "temperature": 0.2,
+    "max_tokens": 1000,
+    "top_p": 1,
+    "stream": false
+  }
+}
