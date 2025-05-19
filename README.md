@@ -16,4 +16,4 @@ This repo is intended to manage and organize API collections for testing and doc
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/bruno.git](https://github.com/PremkumarDivakaran/Bruno_Collection
+   git clone https://github.com/your-username/bruno.git](https://github.com/PremkumarDivakaran/Bruno_Collection)
